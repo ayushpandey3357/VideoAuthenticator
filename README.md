@@ -159,6 +159,14 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
-## 🤝 Contributing
+## Author
 
-Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
+Ayush Kumar Pandey
+
+---
+
+## Contact Maintainer
+
+Email: ayushpandey1974@gmail.com
+GitHub: github.com/ayushpandey3357
+
