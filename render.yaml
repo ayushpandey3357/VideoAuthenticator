@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: videoauthenticator
+    env: python
+    rootDir: videoauth
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn videoauth.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
+      - key: DEBUG
+        value: "False"
+      - key: ALLOWED_HOSTS
+        value: "*"
+      - key: CSRF_TRUSTED_ORIGINS
+        value: "https://*.onrender.com"
