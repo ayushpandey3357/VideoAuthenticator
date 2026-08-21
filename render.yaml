@@ -4,7 +4,7 @@ services:
     env: python
     rootDir: videoauth
     buildCommand: "./build.sh"
-    startCommand: "gunicorn videoauth.wsgi:application"
+    startCommand: "python manage.py migrate && gunicorn videoauth.wsgi:application"
     envVars:
       - key: PYTHON_VERSION
         value: 3.10.12

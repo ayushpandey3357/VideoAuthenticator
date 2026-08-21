@@ -1,1 +1,1 @@
-web: gunicorn videoauth.wsgi:application
+web: python manage.py migrate && gunicorn videoauth.wsgi:application
